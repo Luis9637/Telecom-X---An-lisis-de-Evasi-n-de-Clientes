@@ -68,3 +68,25 @@ except Exception as e:
 - 📐 Dimensiones del DataFrame: 7,267 filas × 6 columnas  
 - 👀 Visualización inicial: primeras 5 filas y estructura general del DataFrame
 
+Primeras 5 filas del DataFrame:
+customerID	Churn	customer	phone	internet	account
+0	0002-ORFBO	No	{'gender': 'Female', 'SeniorCitizen': 0, 'Part...	{'PhoneService': 'Yes', 'MultipleLines': 'No'}	{'InternetService': 'DSL', 'OnlineSecurity': '...	{'Contract': 'One year', 'PaperlessBilling': '...
+1	0003-MKNFE	No	{'gender': 'Male', 'SeniorCitizen': 0, 'Partne...	{'PhoneService': 'Yes', 'MultipleLines': 'Yes'}	{'InternetService': 'DSL', 'OnlineSecurity': '...	{'Contract': 'Month-to-month', 'PaperlessBilli...
+2	0004-TLHLJ	Yes	{'gender': 'Male', 'SeniorCitizen': 0, 'Partne...	{'PhoneService': 'Yes', 'MultipleLines': 'No'}	{'InternetService': 'Fiber optic', 'OnlineSecu...	{'Contract': 'Month-to-month', 'PaperlessBilli...
+3	0011-IGKFF	Yes	{'gender': 'Male', 'SeniorCitizen': 1, 'Partne...	{'PhoneService': 'Yes', 'MultipleLines': 'No'}	{'InternetService': 'Fiber optic', 'OnlineSecu...	{'Contract': 'Month-to-month', 'PaperlessBilli...
+4	0013-EXCHZ	Yes	{'gender': 'Female', 'SeniorCitizen': 1, 'Part...	{'PhoneService': 'Yes', 'MultipleLines': 'No'}	{'InternetService': 'Fiber optic', 'OnlineSecu...	{'Contract': 'Month-to-month', 'PaperlessBilli...
+Información del DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7267 entries, 0 to 7266
+Data columns (total 6 columns):
+ #   Column      Non-Null Count  Dtype 
+---  ------      --------------  ----- 
+ 0   customerID  7267 non-null   object
+ 1   Churn       7267 non-null   object
+ 2   customer    7267 non-null   object
+ 3   phone       7267 non-null   object
+ 4   internet    7267 non-null   object
+ 5   account     7267 non-null   object
+dtypes: object(6)
+memory usage: 340.8+ KB
+
