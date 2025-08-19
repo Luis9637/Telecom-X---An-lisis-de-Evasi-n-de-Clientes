@@ -20,6 +20,7 @@ Este conjunto de datos permite realizar un análisis exploratorio profundo y con
 
 Se importaron las siguientes librerías para el análisis y visualización de datos:
 
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
